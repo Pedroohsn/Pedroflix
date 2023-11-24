@@ -11,16 +11,26 @@ html, body{
     min-height: 100vh; /*Altura mínima*/
     background-color: black; /*Cor de fundo*/
     color: white;   /*Cor do Texto*/
+    position: relative;
 }
 
-body{
-    display: flex;
-    align-items: center;
+header{
+    position: absolute;
+    top: 0;
+    padding: 20px;
+    background: transparent;
+}
+
+.logo{
+    width: 200px;
 }
 
 main{
     width: 100%;
     padding: 3rem;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
 }
 
 .container{
@@ -104,4 +114,24 @@ button{
 button:hover{
     border: white solid 2px;
     color: white;
+}
+
+@media (max-width: 530px){
+    header{
+        position: relative;
+        text-align: center;
+    }
+
+    main{
+        padding: 25px 5px;
+    }
+
+    .container h1{
+        font-size: 3rem;
+    }
+
+    ul li{
+        margin: 0;
+        margin-bottom: 20px;
+    }
 }
