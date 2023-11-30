@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Editar perfil</title>
+    <link rel="stylesheet" href="/css/editar.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  </head>
+  <body>
+    <header>
+      <nav><img src="/img/Pedroflix-removebg-preview.png" alt="" /></nav>
+    </header>
+
+    <main>
+      <div class="container">
+        <h1>Editar perfil</h1>
+        <hr />
+
+       <form action="">
+        <div class="form-container">
+            <div class="left">
+              <img src="img/avatar2.png" alt="foto-perfil" width="150px" height="150px"><i class='bx bxs-pencil'></i>
+            </div>
+            
+            <div class="right">
+                <input type="text" autocomplete="off" placeholder="Nome" id="text">
+                <div class="idiomas">
+                    <h3>Idioma:</h3>
+                    <select name="Idioma" id="idm">
+                        <option value="">Português</option>
+                        <option value="">Inglês</option>
+                        <option value="">Espanhol</option>
+                    </select>
+                </div>
+
+                <div class="game">
+                    <h3>Game ID:</h3>
+                    <p>Seu ID é um nome exclusivo que será usado ao jogar com outros assinantes <br> na Pedroflix Games. <a href="">Saiba mais</a></p>
+                    <input type="text" name="" placeholder="Criar Game ID" id="">
+                </div>
+                <hr>
+                <div class="faixa-etaria">
+                    <h3>Configurações de classificação etária:</h3>
+                    <label class="classificacao" type="submit">Todas as classificações etárias</label>
+                    <p>Mostrar títulos de todas as classificações etárias para este perfil.</p>
+                    <button class="edit" type="submit">Editar</button>
+                </div>
+                
+                <hr>
+                <div class="controlAuto">
+                    <h3>Controle de início automatico</h3>
+                    <input type="checkbox" id="opcao1">
+                    <label for="opcao1">Iniciar automaticamente o próximo episódio de uma série em todos os aparelhos</label>
+                    <br>
+                    <input type="checkbox" id="opcao2">
+                    <label for="opcao2">Reproduzir automaticamente as prévias ao navegar em todos os aparelhos.</label>
+                </div>
+
+                
+              
+
+              </div>
+              
+          
+              
+
+          </div>
+          <hr>
+          <div class="buttons">
+            <button class="btn1" type="submit" value="Salvar">Salvar</button>
+            <button class="btn2" type="submit" value="Cancelar">Cancelar</button>
+            <button class="btn3" type="submit" value="Excluir perfil">Excluir perfil</button>
+        </div>
+        </div>
+
+
+        </div>
+       </form>
+    </main>
+  </body>
+</html>

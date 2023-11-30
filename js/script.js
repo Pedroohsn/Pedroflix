@@ -27,10 +27,10 @@ for(let i = 0;i < usuario.length; i++){
 }
 
     ul.innerHTML += `<li>
-            <a href="#">
+            <a href="perfil.html">
                 <div class="profile">
                     <i class='bx bxs-plus-circle'></i>
                     <span>Adicionar perfil</span>
                 </div>
             </a>
-            </li>`
+            </li>`;
